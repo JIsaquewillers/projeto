@@ -3,6 +3,16 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+main aside{
+    background-color: aqua;
+}
 body{
     background-color: tomato;
+}
+main article{
+    background-color: blue;
+}
+p{
+    color: red;
+    background-color: white;
 }
