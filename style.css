@@ -3,6 +3,13 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+footer{
+    background-color: lime;
+
+}
+footer p{
+    font: 1;
+}
 body{
     background-color: tomato;
 }
@@ -12,3 +19,4 @@ header h1{
 p{
     background-color: yellowgreen;
 }
+
