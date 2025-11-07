@@ -6,3 +6,9 @@
 body{
     background-color: tomato;
 }
+header h1{
+    color: aqua;
+}
+p{
+    background-color: yellowgreen;
+}
