@@ -6,4 +6,31 @@ window.alert("A largura da tela é" + largura);
 let titulo = document.getElementById("titulo");
 console.log(titulo);
 
-document.getElementById("titulo").innerHTML = "isaque";
+//inclui um bloco de conteúdo de HTML
+document.getElementById("caixa").innerHTML = "isaque";
+//inclui um texto de conteúdo
+document.getElementById("caixa").textContent ="Escola"
+//abre uma caixa de diálogo com o usuário
+let digiteNome = window.prompt("Digite seu nome")
+document.getElementById("nome").textContent=(digiteNome);
+
+//adiciona uma classe css
+let caixaTexto = document.getElementById("caixa");
+caixaTexto.classList.add("verde");
+
+//evento de clique
+const btnTrocaCor = document.getElementById("btnTrocaCor");
+btnTrocaCor.addEventListener("click", () => {
+    
+});
+const btnTrocaTexto = document.getElementById("btnTrocaTexto");
+btnTrocaTexto.addEventListener("click", () =>{
+     let texto = window.prompt("Digite a palavra")
+        caixaTexto.textContent = texto
+});
+
+let sobrenome =document.getElementById("Sobrenome").value;
+alert(sobrenome)
+
+
+
