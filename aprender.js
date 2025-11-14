@@ -21,16 +21,36 @@ caixaTexto.classList.add("verde");
 //evento de clique
 const btnTrocaCor = document.getElementById("btnTrocaCor");
 btnTrocaCor.addEventListener("click", () => {
-    
+    caixaTexto.classList.remove("verde")
+    caixaTexto.classList.add("laranja")
 });
+//ação do botão
 const btnTrocaTexto = document.getElementById("btnTrocaTexto");
+//cria o evento de clique no botão
 btnTrocaTexto.addEventListener("click", () =>{
+        //ação que o botão deve fazer
      let texto = window.prompt("Digite a palavra")
-        caixaTexto.textContent = texto
+        caixaTexto.textContent = texto;
 });
 
 let sobrenome =document.getElementById("Sobrenome").value;
 alert(sobrenome)
+
+//calculos
+const btnResultado = document.getElementById("resultado");
+btnResultado.addEventListener("click",() =>{
+        //captura os valores
+        let valor1 = document.getElementById("1").value;
+        let valor2 = document.getElementById("2").value;
+        //variavel que soma os valores 
+        let soma = parseInt(valor1) + parseInt(valor2);
+        //
+         document.getElementById("soma").innerHTML = soma;
+        
+
+}  );
+
+
 
 
 
